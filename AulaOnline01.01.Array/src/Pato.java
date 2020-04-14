@@ -9,6 +9,8 @@ public class Pato {
 		this.idade = aIdade;
 	}
 	
+	
+	
 	@Override
 	public String toString() {
 		String res = "";

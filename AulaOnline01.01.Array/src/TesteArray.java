@@ -10,12 +10,14 @@ public class TesteArray {
 		patos[2] = new Pato("Carla", 3);
 		patos[3] = patos[0];
 		
+		
+		System.out.println("Usando o for(int i=0; i<n; i++)");
 		for(int i=0; i<patos.length; i++) {
 			System.out.println("patos[" + i + "]: \n" + patos[i]);
 		}
 		
-		System.out.println("for each\n");
-		for(Pato pato : patos ){
+		System.out.println("\nfor each\n");
+		for(Pato pato: patos ){
 			System.out.println(pato);
 		}
 		
