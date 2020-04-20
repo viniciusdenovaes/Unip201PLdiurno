@@ -10,6 +10,7 @@ public class TesteSetString {
 		palavras.add("ana");
 		palavras.add("abacate");
 		palavras.add("bola");
+		palavras.add("bola");
 		palavras.add("bala");
 		
 		for(String palavra: palavras) {
